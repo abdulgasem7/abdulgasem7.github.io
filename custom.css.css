@@ -1,0 +1,164 @@
+.navbar-header {
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: rgb(197, 197, 197);
+    color: lightslategray
+}
+
+.container {
+    padding: 0%;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 3px;
+}
+
+.navbar {
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: solid darkgray;
+}
+
+ul {
+    float: none;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    padding: 10px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: gray;
+    height: 100px;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border-top: solid #4aaaa5 10px;
+    color: white;
+}
+
+img {
+    /* float: left; */
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+h2 {
+    margin-left: 0 auto;
+    padding: 40px;
+    border-bottom: solid black;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+form {
+    margin: 15px;
+}
+
+button {
+    margin-top: 25px;
+    margin-bottom: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+    .topLeft {
+        width: 200px;
+        height: 52px;
+        position: absolute;
+        margin-left: 170px;
+        margin-top: -79px;
+        background: #4aaaa5;
+        text-align: center;
+        padding: 5px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .topLeft {
+        width: 200px;
+        height: 52px;
+        position: absolute;
+        margin-left: 170px;
+        margin-top: -79px;
+        background: #4aaaa5;
+        text-align: center;
+        padding: 5px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .topLeft {
+        width: 200px;
+        height: 52px;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: -79px;
+        background: #4aaaa5;
+        text-align: center;
+        padding: 5px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .topLeft {
+        width: 200px;
+        height: 52px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: -79px;
+        background: #4aaaa5;
+        text-align: center;
+        padding: 5px;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .topLeft {
+        width: 200px;
+        height: 52px;
+        position: absolute;
+        margin-left: 80px;
+        margin-top: -79px;
+        background: #4aaaa5;
+        text-align: center;
+        padding: 5px;
+        color: #ffffff;
+    }
+}
