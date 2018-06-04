@@ -1,0 +1,440 @@
+body {
+    color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    text-decoration-color: #cccccc;
+    margin: auto;
+    border: solid #cccccc;
+    border-bottom: 2px;
+}
+
+.name {
+    width: 250px;
+    height: 100px;
+    background: #4aaaa5;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 270px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 948px;
+    position: absolute;
+    background: ffffff;
+    height: 67px;
+    text-align: center;
+    padding-top: 33px;
+    position: fixed;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(116, 116, 116);
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+section {
+    background: lightgray;
+    border-bottom: solid #cccccc;
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    margin-bottom: 40px;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 567px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 41px;
+    border: solid #dddddd;
+    border-width: 1px;
+}
+
+.about {
+    width: 960px;
+    height: 50px;
+    color: black;
+    background: #ffffff;
+    border-bottom: solid#110101;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 939px;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    display: block;
+}
+
+p {
+    color: #777777;
+    clear: right;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: -23px;
+    font-size: 32px;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: -15px;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer {
+    background: #666666;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-top: solid #4aaaa5;
+    border-width: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 10000px;
+}
+
+form {
+    padding: 11px;
+    color: #110101;
+}
+
+#name {
+    height: 25px;
+    width: 935px;
+}
+
+#email {
+    height: 25px;
+    width: 935px;
+}
+
+textarea {
+    height: 200px;
+    width: 933px;
+}
+
+#submit {
+    background: #4aaaa5;
+    color: white;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    position: relative;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.one {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    height: 40px;
+    width: 225px;
+    float: right;
+    margin-left: 255px;
+    margin-top: 86px;
+    text-align: center;
+}
+
+.two {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    height: 40px;
+    width: 225px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.three {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    height: 40px;
+    width: 225px;
+    float: right;
+    margin-top: 86px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.four {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    height: 40px;
+    width: 225px;
+    float: right;
+    margin-left: 255px;
+    margin-top: 86px;
+    text-align: center;
+}
+
+.five {
+    background: #4aaaa5;
+    color: white;
+    position: absolute;
+    height: 40px;
+    width: 225px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 86px;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+@media only screen and (max-width: 740px) {
+    .container {
+        width: 500px;
+    }
+    .name {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 36px;
+    }
+    .about {
+        width: 90%;
+    }
+    ul {
+        width: 100%;
+        background: white;
+        padding: 0 auto;
+        padding: 0px;
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 0;
+    }
+    li {
+        margin-left: 65px;
+        float: left;
+        padding: 0;
+    }
+    img {
+        float: none;
+        margin: 0 auto;
+    }
+    h2 {
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+    .one {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 124px;
+        margin-top: 86px;
+        text-align: center;
+    }
+    .two {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 124px;
+        margin-top: 85px;
+        text-align: center;
+    }
+    .three {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-top: 86px;
+        margin-left: 124px;
+        text-align: center;
+    }
+    .four {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 124px;
+        margin-top: 86px;
+        text-align: center;
+    }
+    .five {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 124px;
+        margin-top: 86px;
+        text-align: center;
+    }
+    .row {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .container {
+        width: 50%;
+    }
+    .name {
+        margin-left: 10%;
+    
+    }
+    ul {
+        margin-left: 63%;
+    }
+    .about {
+        width: 90%;
+    }
+    h2 {
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+    .one {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 86px;
+        text-align: center;
+    }
+    .two {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 255px;
+        margin-top: 85px;
+        text-align: center;
+    }
+    .three {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-top: 86px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .four {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 255px;
+        margin-top: 86px;
+        text-align: center;
+    }
+    .five {
+        background: #4aaaa5;
+        color: white;
+        position: absolute;
+        height: 40px;
+        width: 225px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 86px;
+        text-align: center;
+    }
+    .row {
+        margin-left: 10px;
+    }
+    img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 500px;
+    }
+    .name {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 36px;
+    }
+    .about {
+        width: 90%;
+    }
+    ul {
+        width: 100%;
+        background: white;
+        padding: 0 auto;
+        padding: 0px;
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 0;
+    }
+    li {
+        margin-left: 65px;
+        float: left;
+        padding: 0;
+    }
+    img {
+        float: none;
+        margin: 0 auto;
+    }
+    h2 {
+        padding-top: 15px;
+        margin-left: 10px;
+    }
+}
