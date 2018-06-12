@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-HW#2
+# Word-Guess-Game
+HW#3
