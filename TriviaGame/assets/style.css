@@ -1,0 +1,44 @@
+nav {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/75/40561a7121f15bf.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+}
+
+button {
+    width: 300px;
+}
+.questionScreen, .endScreen, .scoreboard, .timer-display {
+	display: none;
+    /* padding: 0px 0px 30px 30px; */
+}
